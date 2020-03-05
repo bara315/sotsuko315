@@ -15,7 +15,7 @@ html{
 
 body {
     height:100%;
-    width:98%;
+    width:100%;
     margin: 0;
     padding: 0;
     min-height:100%;
@@ -25,7 +25,7 @@ body {
 @media screen and (max-width:500px){
   header{
       border: 5px solid white;
-      width : 100%;
+      width : 90%;
       height:auto;
       padding : 10px;
       display:block;
@@ -93,7 +93,7 @@ body {
   #nav-content {
       overflow: visible;
       position: fixed;
-      top: 30px;(padding+border)
+      top: 30px;/*(padding+border)*/
       left: 0;
       z-index: 9999;/*最前面に*/
       width: 45%;/*右側に隙間を作る*/
