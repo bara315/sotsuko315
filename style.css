@@ -481,6 +481,20 @@ div#footer-bk
     color: #18b194;
 }
 
+.youtube_outer {
+  width: 80vw;
+  padding-top: 20%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.youtube_outer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
 .mediabox{
   width : 80%;
   min-height : 10%;
@@ -542,7 +556,7 @@ div#footer-bk
   margin-bottom: 1%;
   min-height : 2%;
   padding: 1%;
-  font-size:50px;
+  font-size:4vmax;
   color : black;
 }
 .lylicbox p {
@@ -553,7 +567,7 @@ div#footer-bk
   margin-bottom: 1%;
   min-height : 2%;
 
-  font-size:40px;
+  font-size:2.5vmax;
   color:slategray;
 }
 .lylicbox p2 {
@@ -564,7 +578,7 @@ div#footer-bk
   margin-bottom: 1%;
   min-height : 2%;
   padding: 1%;
-  font-size:40px;
+  font-size:2.5vmax;
   color:steelblue;
 }
 
@@ -583,7 +597,7 @@ div#footer-bk
   margin-bottom: 1%;
   min-height : 2%;
   padding: 1%;
-  font-size:40px;
+  font-size:2.5vmax;
 }
 .novelbox table {
   font-family:sans-serif;
