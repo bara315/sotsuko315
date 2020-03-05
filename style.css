@@ -1,0 +1,631 @@
+@font-face {
+font-family: 'nm';
+src: url('./font/natumemozi.woff') format('woff') ,
+url('./font/natumemozi.eot') format('eot') ,
+url('./font/natumemozi.woff2') format('woff2') ,
+url('./font/natumemozi.ttf') format('ttf') ;
+}
+
+html{
+    background-image: url("back.jpeg");
+    height:100%;
+}
+
+body {
+    height:100%;
+    margin: 0;
+    padding: 0;
+    min-height:100%;
+    font-family:'あんずもじ','Bradley Hand','恋文ペン字','あくあＰフォント','aqua_pfont','游ゴシック','Yu Gothic','SignPainter','Noteworthy','Papyrus','American Typewriter','ヒラギノ丸ゴ ProN W3','Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, メイリオ, sans-serif;
+}
+
+
+
+
+#wrapper{
+    padding:160px 0 70px 0;
+    width:100%;
+    height:100%;
+    position:relative;
+    margin:0 auto;
+    bottom:0;
+}
+
+
+
+header{
+    border: 5px solid white;
+    width : auto;
+    height : auto;
+    margin-top : 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left : 1%;
+    background-image:url("headerbk.png");
+    background-size : contain;
+    position : relative;
+    color:#000;
+    z-index:999;
+
+}
+
+
+
+header h1{
+    font-size:25px;
+    padding:30px 0px 0px 50px;
+}
+
+header h2{
+    font-size:15px;
+    padding:10px 0px 0px 70px;
+    display:inline;
+}
+
+header img{
+  height : auto;
+  width : auto;
+}
+
+nav{
+    width:98%;
+    height:auto;
+    background-color:tan;
+    margin:10px 10px 10px 10px;
+}
+
+nav ul.overview{
+    list-style:none;
+}
+
+nav ul.overview li{
+    width:10%;
+    text-align: center;
+    display: inline-block;
+    padding-right:30px;
+    position: relative;
+}
+
+nav ul.overview li a{
+    line-height:30px;
+    text-decoration:none;
+    color:#000;
+}
+
+nav ul.overview li a:hover{
+    color: yellow;
+    text-shadow: 1px 1px 1px gold;	/*横方向 縦方向 ぼかし 影の色;*/
+}
+
+
+/* ▼サブメニューは、とりあえず非表示にしておく */
+nav ul.overview ul {
+   display: none;       /* ★1:標準では非表示にする */
+   margin: 0px;         /* ★2:サブメニュー外側の余白(ゼロ) */
+   padding: 0px;        /* ★3:サブメニュー内側の余白(ゼロ) */
+   position: absolute;  /* ★4:絶対配置にする */
+}
+nav ul.overview ul li {
+    width : 70%;
+    text-align: left;
+    padding-left: 20%;
+    background-image:url("paper.png");
+}
+
+
+/* ---------------------------------- */
+/* ▼サブメニューがある場合に開く処理 */   /* ※サブメニューが1階層しか存在しない場合の記述 */
+/* ---------------------------------- */
+nav ul.overview li:hover ul {
+    color: yellow;
+    display: block;      /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
+}
+
+section{
+    min-height:100%;
+    width:98%;
+    /* background-color:tan; */
+    /* background-image:url("headerbk.png"); */
+    color:#000;
+    min-height : 2%;
+    margin:5px;
+    padding-bottom:10px;
+}
+
+p{
+  color:slategray;
+}
+
+p-sara{
+  color : lightpink;
+}
+
+p-na{
+  color : sandybrown;
+}
+
+p-amel{
+  color :lightsteelblue;
+}
+
+p-nag{
+  color :royalblue;
+}
+
+article{
+    width:98%;
+    background-color:cornsilk;
+    color:#000;
+    margin:5px;
+    padding-bottom:10px;
+    overflow: auto;
+}
+
+article h1{
+    padding:15px;
+    letter-spacing:0.3em;
+}
+
+article h2{
+    padding:15px;
+    font-size:30px;
+    background:lemonchiffon;
+    border:10px double tan;
+    margin:1%;
+}
+
+article h3{
+    padding:15px;
+    font-size:30px;
+    background-color:peachpuff;
+    border:10px double tan;
+    margin:1%;
+}
+
+article img{
+    margin:15px;
+}
+
+article img.right{
+    float:left;
+}
+
+next{
+    background-color : wheat;
+}
+
+next a:hover{
+    background-color : wheat;
+    color: yellow;
+    text-shadow: 1px 1px 1px gold;	/*横方向 縦方向 ぼかし 影の色;*/
+}
+
+#tweet{
+    float:right;
+    height:10%;
+    width:300px;
+    background:wheat;
+    border: 5px dashed tan;
+    margin:0 1% 0 0;
+}
+
+#main{
+    float right;
+    width:72%;
+    margin:1%;
+}
+.tweetframe{
+    display: inline-block;3
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+
+#trick1{
+    padding:15px;
+    font-size:30px;
+    background-color:peachpuff;
+    border:10px double tan;
+    margin:1%;
+    width:90%;
+}
+
+
+#clubh3{
+    padding:15px;
+    font-size:30px;
+    background-color:tomato;
+    border:10px double tan;
+    margin:1%;
+}
+
+#answerh3{
+    padding:15px;
+    font-size:20px;
+    width:70%;
+    background-color:wheat;
+    border:5px double tan;
+    margin:1%;
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+
+article p{
+    line-height:1.4;
+    margin:10px;
+}
+
+#questionh2{
+    padding:15px;
+    font-size:20px;
+    background-color:lemonchiffon;
+    border:10px double tan;
+    width:80%;
+}
+
+.toggle_box1{
+    display:none;
+    color:#fff;
+    background-color:palegreen;
+    width:70%;
+    padding:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border:10px double steelblue;
+}
+.toggle_box2{
+    display:none;
+    color:#fff;
+    background-color:palegreen;
+    padding:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    width : 70%;
+    border:10px double steelblue;
+
+}
+.toggle_box3{
+    display:none;
+    color:#fff;
+    background-color:palegreen;
+    padding:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-bottom:20px;
+    width:70%;
+    border:10px double steelblue;
+
+}
+.toggle_hint{
+    display:none;
+    color:#fff;
+    background-color:peachpuff;
+    padding:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-bottom:20px;
+    width:70%;
+    border:10px double tan;
+
+}
+.btn1{
+    background-color:palegreen;
+    width: 75%;
+    padding:10px;
+    margin:0;
+
+}
+.btn1.active{
+    background-color:steelblue;
+    padding:10px;
+    color:#fff;
+
+}
+.btn1:hover{
+    cursor:pointer;
+}
+
+.btn2{
+    background-color:palegreen;
+    width:75%;
+    padding:10px;
+
+    margin-top:0;
+    margin-bottom:20px;
+}
+.btn2.active{
+    background-color:#1b325f;
+    padding:10px;
+    color:#fff;
+
+}
+.btn2:hover{
+    cursor:pointer;
+}
+
+.btn3{
+    width:75%;
+    background-color:palegreen;
+    padding:10px;
+    margin:15px 0 0;
+}
+.btn3.active{
+    background-color:#1b325f;
+    padding:10px;
+    color:#fff;
+}
+.btn3:hover{
+    cursor:pointer;
+}
+
+
+.btnhint.active{
+    background-color:#1b325f;
+    padding:10px;
+    color:#fff;
+}
+.btnhint:hover{
+    cursor:pointer;
+}
+
+
+.box1{
+    background-color:#132343;
+    width:100%;
+    height:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.box2{
+    background-color:#132343;
+    width:100%;
+    height:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.box3{
+    background-color:#132343;
+    width:100%;
+    height:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.boxinline {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+.boxhint{
+    background-color:peachpuff;
+    width:100%;
+    height:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+.frame{
+    padding:160px 0 160px 0;
+    display: inline-block;
+    transform: rotate(5deg);
+    /*overflow: hidden; */
+    padding: 6px;
+    position: relative;
+}
+
+.frame img {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    z-index:-1;
+}
+
+.frame:before,
+
+.frame:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 97px;
+    height: 50px;
+    background: tan;
+    transform: rotate(-30deg);
+}
+
+/* 左上 */
+.frame:before {
+    box-shadow: 0 10px 8px -12px rgba(0, 0, 0, 0.8);
+    top: -24px;
+    bottom: auto;
+    right: auto;
+    left: -26px;
+}
+
+/* 右下 */
+.frame:after {
+    box-shadow: 0 -10px 10px -10px rgba(0, 0, 0, 0.7);
+    top: auto;
+    bottom: -22px;
+    right: -25px;
+    left: auto;
+}
+
+
+
+table.profile {
+    width: 98%;
+    margin:20px 5px 50px 5px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-spacing:0px;
+}
+
+table.profile tr th,table.profile tr td {
+    font-size: 13px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 7px;
+}
+
+table.profile tr th {
+    background: wheat;
+    width: 50px;
+}
+
+#acMenu dt{
+    display:block;
+    cursor:pointer;
+}
+#acMenu dd{
+}
+
+footer{
+    bottom:0;
+    position:relative;
+    width:96%;
+    height:25px;
+    color:#000;
+    background-color:peachpuff;
+    margin:30px 0px 10px 10px;
+    font-size:12px;
+}
+
+div#footer-fixed
+{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 45px;
+}
+
+div#footer-bk
+{
+    background-color:wheat;
+    padding:10px 0 20px;
+    height:45px;
+    width:100%;
+}
+
+.p-author .profile .p-name {
+    color: #18b194;
+}
+
+.mediabox{
+  width : 80%;
+  min-height : 10%;
+}
+
+.mediabox p {
+  margin-top : 1%;
+  margin-left: 1%;
+  margin-right : 1%;
+  margin-bottom: 1%;
+  min-height : 2%;
+  padding: 1%;
+  font-size:20px;
+}
+
+.titlebox{
+  border: 3px dashed peachpuff;
+  width : 90%;
+  background-color : tan;
+  /* background-image: url("headerbk.png"); */
+  min-height : 10%;
+  text-align: center;
+}
+
+.titlebox h1 {
+  font-family: "nm";
+  margin-top : 1%;
+  margin-left: 1%;
+  margin-right : 1%;
+  margin-bottom: 1%;
+  min-height : 2%;
+  padding: 1%;
+  font-size:50px;
+}
+.titlebox p {
+  margin-top : 1%;
+  margin-left: 1%;
+  margin-right : 1%;
+  margin-bottom: 1%;
+  min-height : 2%;
+  padding: 1%;
+  font-size:20px;
+}
+
+.lylicbox{
+  border: 7px dashed lightyellow;
+  width : 94%;
+  background-color : peachpuff;
+  /* background-image: url("headerbk.png"); */
+  min-height : 10%;
+  text-align: center;
+}
+
+.lylicbox h1 {
+  font-family: "nm";
+  margin-top : 1%;
+  margin-left: 1%;
+  margin-right : 1%;
+  margin-bottom: 1%;
+  min-height : 2%;
+  padding: 1%;
+  font-size:50px;
+  color : black;
+}
+.lylicbox p {
+  font-family: "nm";
+  margin-top : 1%;
+  margin-left: 1%;
+  margin-right : 1%;
+  margin-bottom: 1%;
+  min-height : 2%;
+
+  font-size:40px;
+  color:slategray;
+}
+.lylicbox p2 {
+  font-family: "nm";
+  margin-top : 1%;
+  margin-left: 1%;
+  margin-right : 1%;
+  margin-bottom: 1%;
+  min-height : 2%;
+  padding: 1%;
+  font-size:40px;
+  color:steelblue;
+}
+
+.novelbox{
+  width : 94%;
+  background-color : lightyellow;
+  min-height : 10%;
+  text-align: left;
+}
+
+.novelbox p {
+  font-family:sans-serif;
+  margin-top : 1%;
+  margin-left: 1%;
+  margin-right : 1%;
+  margin-bottom: 1%;
+  min-height : 2%;
+  padding: 1%;
+  font-size:40px;
+}
+.novelbox table {
+  font-family:sans-serif;
+  margin-top : 1%;
+  margin-left: 1%;
+  margin-right : 1%;
+  margin-bottom: 1%;
+  min-height : 2%;
+  padding: 1%;
+  font-size:20px;
+  color :slategray;
+}
