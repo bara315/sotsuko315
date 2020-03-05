@@ -1,12 +1,18 @@
-              （②『best friend』原曲。 しかし、途中でSYM08が停止する）<br/>
-              <br/>
-              時には急ぎすぎて 見失う事もあるよ 仕方ない <br/>
-              ずっと見守っているからって笑顔で いつものように抱きしめた <br/>
-              あなたの笑顔に 何度助けられただろう <br/>
-              (SYM08停止)<br/>
-              ありがとう ありがとう Best Friend<br/>
-              <br/>
-              （③『プリンセス・マーガレット』替え歌。『ナタリーはナタリーなのだ！』）<br/>
+*best_friendは歌詞の大部分を変えていないので載せない
+　
+      <section>
+        <Div Align = "center">
+          <div class = "titlebox">
+            <h1>『ナタリーはナタリーなのだ！』</h1>
+          </div>
+          <!-- <img src="./m1.png" style ="margin-top:2%; width :80%"/> -->
+        </Div>
+        <!-- <div class="frame"><img src="./m1.png" style ="width :80%"/></div> -->
+      </section>
+
+      <section>
+        <Div Align = "center">
+          <div class = "lylicbox">
               ゆ：皆様ご機嫌麗しゅう<br/>
               ナタリーのことをご存じかしら<br/>
               皆様ご機嫌麗しゅう<br/>

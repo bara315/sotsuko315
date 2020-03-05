@@ -2,56 +2,62 @@
   <html lang ="ja">
   <head>
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
       <title>Home</title><!--タブに出る文字-->
-      <link href="./style.css" rel="stylesheet" type="text/css"/>
+      <link href="../../style.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <!-div id="wrapper"->
-
     <header>
-      <Div Align = "center">
-        <a href = "./index.html">
-          <img src="./title.png" style =" display:inline; width :80%; margin:1% 1% 1% 1%;"/>
-        </a>
-      </Div>
+      <div id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+          <ul ontouchstart="">
+             <Div Align="center">
+            <li class="title">
+              <a href = "../index.html">
+                <img src="../../media/title.png" style =" display:inline; width :100%; margin:0% 0% 0% 0%;"/>
+              </a>
+            </li>
+            <li><a href="https://sites.google.com/view/bara16/">Home</a></li>
+            <li><a href="../index.html">index</a></li>
+            <li>3/12
+              <ul>
+                <li><a href="./day1-1.html">0-1</a></li>
+                <li><a href="./day1-2.html"> 2</a></li>
+                <li><a href="./day1-3.html"> 3-4</a></li>
+              </ul>
+            </li>
+            <li>3/13
+              <ul>
+                <li><a href="./day2-1.html"> 5</a></li>
+                <li><a href="./day2-2.html"> 6-7</a></li>
+                <li><a href="./day2-3.html"> 8</a></li>
+              </ul>
+            </li>
+            <li>3/14
+              <ul>
+                <li><a href="./day3-1.html"> 9-10</a></li>
+                <li><a href="./day3-2.html"> 11</a></li>
+              </ul>
+            </li>
+            <li>3/15
+              <ul>
+                <li><a href="./day4-1.html"> 12</a></li>
+                <li><a href="./day4-2.html"> 13</a></li>
+                <li><a href="./day4-3.html"> 14</a></li>
+                <li><a href="./day4-4.html"> 15</a></li>
+              </ul>
+            </li>
+            <li><a href="../media.html">media</a></li>
+            </Div>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <div id="body">
-      <nav>
-        <ul class = "overview" ontouchstart="">
-          <li><a href="https://sites.google.com/view/bara16/">Home</a></li>
-          <li><a href="./index.html">index</a></li>
-          <li>3/12
-            <ul>
-              <li><a href="day1-1.html">chpt. 0-1</a></li>
-              <li><a href="day1-2.html">chpt. 2</a></li>
-              <li><a href="day1-3.html">chpt. 3-4</a></li>
-            </ul>
-          </li>
-          <li>3/13
-            <ul>
-              <li><a href="day2-1.html">chpt. 5</a></li>
-              <li><a href="day2-2.html">chpt. 6-7</a></li>
-              <li><a href="day2-3.html">chpt. 8</a></li>
-            </ul>
-          </li>
-          <li>3/14
-            <ul>
-              <li><a href="day3-1.html">chpt. 9-10</a></li>
-              <li><a href="day3-2.html">chpt. 11</a></li>
-            </ul>
-          </li>
-          <li>3/15
-            <ul>
-              <li><a href="day4-1.html">chpt. 12</a></li>
-              <li><a href="day4-2.html">chpt. 13</a></li>
-              <li><a href="day4-3.html">chpt. 14</a></li>
-              <li><a href="day4-4.html">chpt. 15</a></li>
-            </ul>
-          </li>
-          <li><a href="./media.html">media</a></li>
-        </ul>
-      </nav>
 
       <section>
         <Div Align ="center">
