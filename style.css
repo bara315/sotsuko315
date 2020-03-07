@@ -606,9 +606,29 @@ div#footer-bk
   margin-right : 1%;
   margin-bottom: 1%;
   min-height : 2%;
-  padding: 1%;
+  /* padding: 1%; */
   font-size:20px;
+  width:80%;
   color :slategray;
+}
+
+.novelbox table td{
+  text-align: center;
+  font-size:2.5vmax;
+}
+
+.novelbox table th{
+  text-align: center;
+  font-size:3vmax;
+}
+
+.novelbox table arrange{
+  color :lightyellow;
+  font-size:1.5vmax;
+}
+
+.novelbox table name{
+  font-size:2.5vmax;
 }
 
 @media screen and (max-width:500px){
