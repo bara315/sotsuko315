@@ -598,7 +598,8 @@ div#footer-bk
 }
 
 .novelbox ch{
-  font-family: fantasy;
+  font-family: serif;
+  color:gray;
   /* color:pink; */
   margin-top : 0%;
   margin-left: 0%;
@@ -606,7 +607,7 @@ div#footer-bk
   margin-bottom: 0%;
   min-height : 2%;
   padding: 0%;
-  font-size:2.5vmax;
+  font-size:2.7vmax;
 }
 
 .novelbox p {
