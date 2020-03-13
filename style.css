@@ -610,6 +610,11 @@ div#footer-bk
   font-size:2.7vmax;
 }
 
+.novelbox ch:hover{
+  color:pink;
+
+}
+
 .novelbox p {
   font-family:sans-serif;
   margin-top : 1%;
